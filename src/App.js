@@ -22,7 +22,7 @@ function App() {
         <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quisquam aperiam unde! Pariatur hic explicabo, soluta velit cum maiores ipsum voluptate quia voluptatibus repellendus, labore itaque nihil facere quae saepe?</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem similique nemo quae mollitia, cum accusamus illum at, voluptas recusandae molestiae fugit quam voluptate alias suscipit labore tempore ipsum consequuntur totam!</p>
       </div>
-
+    </div>
       <Navbar />
     </div>
   );
