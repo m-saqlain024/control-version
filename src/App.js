@@ -6,6 +6,7 @@ import Saqi from './components/Saqi';
 import TodoApp from './components/TodoApp';
 
 function App() {
+  
   return (
     <div>
       {/* <Form placeholder="enter some thing here"/> */}
@@ -25,7 +26,8 @@ function App() {
       </div>
       <Navbar />
     </div>
-  );
+
+    );
 }
 
 export default App;
