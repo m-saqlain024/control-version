@@ -3,8 +3,11 @@ import React from 'react'
 export default function Navbar() {
   return (
     <div>
-        <h1>Navbar</h1>
-        <button>Submit</button>
+      <ul>
+        <li>home</li>
+        <li>about</li>
+        <li>contact</li>
+      </ul>
     </div>
   )
 }
