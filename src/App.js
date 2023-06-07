@@ -12,7 +12,7 @@ function App() {
       {/* <Pr/> */}
       <Saqi/>
       <TodoApp/>
-      <Navbar/>
+      <Navbar />
     </div>
 
     );
