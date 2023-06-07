@@ -3,10 +3,11 @@ import React from 'react'
 export default function Navbar() {
   return (
     <div>
-        <h1>i work on master branch </h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quidem minus magni sed praesentium libero odio! Excepturi vitae, exercitationem quasi autem voluptatem ipsam labore totam, eveniet omnis similique alias commodi.</p>
+        <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic nobis distinctio perferendis quam pariatur. Tenetur.</h3>
+        <h2>new add</h2>
+        <h1>i work in master branch but i want push in new branch</h1>
         <button>Submit</button>
-
+        <button>i work on new branch</button>
     </div>
   )
 }
