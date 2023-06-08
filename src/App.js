@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
+import PureImpure from './components/PureImpure';
 // import Pr from './Pr';
 // import Form from './components/Form';
 import Saqi from './components/Saqi';
@@ -25,6 +26,7 @@ function App() {
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem similique nemo quae mollitia, cum accusamus illum at, voluptas recusandae molestiae fugit quam voluptate alias suscipit labore tempore ipsum consequuntur totam!</p>
       </div>
       <Navbar />
+      <PureImpure/>
     </div>
 
     );
