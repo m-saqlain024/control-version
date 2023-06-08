@@ -1,7 +1,9 @@
 import './App.css';
+import UseReducer from './components/UseReducer';
 // import Navbar from './components/Navbar';
 // import PureImpure from './components/PureImpure';
 import ReactHook from './components/ReactHook';
+import CustomHook from './components/CustomHook';
 // import Pr from './Pr';
 // import Form from './components/Form';
 // import Saqi from './components/Saqi';
@@ -18,6 +20,8 @@ function App() {
       {/* <Navbar /> */}
       {/* <PureImpure/> */}
       <ReactHook/>
+      <UseReducer/>
+      <CustomHook/>
     </div>
 
     );
