@@ -16,7 +16,7 @@ function App() {
       {/* <Pr/> */}
       {/* <Saqi /> */}
       {/* <TodoApp /> */}
-      {/* <Navbar /> */}
+      <Navbar link1='home' link2='about' link3='blogs' />
       {/* <PureImpure/> */}
       <ReactHook/>
       <UseReducer/>
