@@ -1,4 +1,4 @@
-import React from 'react'
+   import React from 'react'
 
 export default function Navbar(props) {
   return (
@@ -7,7 +7,7 @@ export default function Navbar(props) {
         <li>{props.link1}</li>
         <li>{props.link2}</li>
         <li>{props.link3}</li>
-      </ul>
+      </ul>  
     </div>
   )
 }
