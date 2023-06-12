@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 // import PureImpure from './components/PureImpure';
 import ReactHook from './components/ReactHook';
 import CustomHook from './components/CustomHook';
+import Asif from './components/asif';
 // import Pr from './Pr';
 // import Form from './components/Form';
 // import Saqi from './components/Saqi';
@@ -18,6 +19,7 @@ function App() {
       {/* <TodoApp /> */}
       <Navbar link1='Home' link2='About' link3='Blogs' />
       {/* <PureImpure/> */}
+      <Asif/>
       <ReactHook/>
       <UseReducer/>
       <CustomHook/>
