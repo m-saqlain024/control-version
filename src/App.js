@@ -1,7 +1,18 @@
+import './App.css';
+import UseReducer from './components/UseReducer';
+import { useState } from "react";
+import Navbar from './components/Navbar';
+// import PureImpure from './components/PureImpure';
+import ReactHook from './components/ReactHook';
+import CustomHook from './components/CustomHook';
+import Asif from './components/asif';
 import Form from "./components/Form";
 import Header from "./components/Header";
 import Task from "./components/Task";
-import { useState } from "react";
+// import Pr from './Pr';
+// import Form from './components/Form';
+// import Saqi from './components/Saqi';
+// import TodoApp from './components/TodoApp';
 
 function App() {
   const [showForm , setShowForm] = useState(false)
@@ -60,6 +71,16 @@ function App() {
   }
   return (
     <div className="container">
+       {/* <Form placeholder="enter some thing here"/> */}
+      {/* <Pr/> */}
+      {/* <Saqi /> */}
+      {/* <TodoApp /> */}
+      <Navbar link1='Home' link2='About' link3='Blogs' />
+      {/* <PureImpure/> */}
+      <Asif/>
+      <ReactHook/>
+      <UseReducer/>
+      <CustomHook/>
       <Header title="Task Tracker" onAdd={handleAdd} showForm={showForm} />
       {showForm && <Form addFun={addFun} />}
       {tasks.length > 0 ? (
