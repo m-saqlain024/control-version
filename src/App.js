@@ -1,11 +1,11 @@
-
 import { useState } from "react";
 import Form from "./components/Form";
 import Header from "./components/Header";
 import Task from "./components/Task";
+import Footer from "./components/Footer";
 
 function App() {
-  const [showForm , setShowForm] = useState(false)
+  const [showForm, setShowForm] = useState(false);
   const [tasks, setTasks] = useState([
     {
       id: 1,
@@ -55,10 +55,10 @@ function App() {
       })
     );
   };
-  const handleAdd = ()=>{
+  const handleAdd = () => {
     // console.log('ok')
-    setShowForm(!showForm )
-  }
+    setShowForm(!showForm);
+  };
   return (
     <div className="container">
       <Header title="Task Tracker" onAdd={handleAdd} showForm={showForm} />
@@ -68,6 +68,7 @@ function App() {
       ) : (
         "No Task To Show"
       )}
+      <Footer/>
     </div>
   );
 }
